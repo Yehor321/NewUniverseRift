@@ -1,0 +1,69 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 3%;
+}
+.Main_text .All_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Main_text .All_button a {
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+    text-decoration: none;
+    margin: 3%;
+}
+.media_b {
+    background-image: url(/imges/media_bu.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 120px;
+}
+.media_b:hover {
+    background-image: url(/imges/media_b.png);
+}
+.wishlist_b {
+    background-image: url(/imges/wishlist_b.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 120px;
+}
+.wishlist_b:hover {
+    background-image: url(/imges/wishlist_bu.png);
+}
+.map_b {
+    background-image: url(/imges/map_b.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 120px;
+}
+.map_b:hover {
+    background-image: url(/imges/map_bu.png);
+}
+.media_b {
+
+    background-image: url(/imges/media_bu.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.media_b:hover {
+    background-image: url(/imges/media_b.png);
+}
+@media screen and (max-width: 1200px) {
+    .All_button {
+        flex-direction: column;
+        transform: scale(0.8);
+      }
+}

@@ -1,0 +1,82 @@
+* {
+  cursor: url('/imges/cursor_n.png'), auto;
+}
+a:hover {
+  cursor: url('/imges/cursor_l.png'), pointer;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+main {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  background-image: url(/imges/background_main.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+
+
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+}
+.cop {
+  position: absolute;
+  color: white;
+  left: 0;
+  bottom: -15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer_icon_position {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 45px;
+  transition: 0.5s;
+}
+
+.discord {
+  background-image: url(/imges/discord_icon_n.png);
+}
+.discord:hover {
+  background-image: url(/imges/discord_icon.png);
+}
+.instagram {
+  background-image: url(/imges/Instagram_icon_n.png);
+}
+.instagram:hover {
+  background-image: url(/imges/Instagram_icon.png);
+}
+.x_twitter {
+  background-image: url(/imges/X_icon_n.png);
+}
+.x_twitter:hover {
+  background-image: url(/imges/X_icon.png);
+}
+.youtube {
+  background-image: url(/imges/youtube_icon_n.png);
+}
+.youtube:hover {
+  background-image: url(/imges/youtube_icon.png);
+}
+@media screen and (max-width: 1200px) {
+  .cop {
+    font-size: 12px;
+    }
+}
